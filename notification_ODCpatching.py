@@ -3,7 +3,7 @@ from datetime import datetime
 import requests
 import base64
 
-headers = {'Authorization': 'token 76b529dc05684356b4593cab9eaae569b9dea940'}
+headers = {'Authorization': 'token <github_token>'}
 schedule_url = "https://git.soma.salesforce.com/api/v3/repos/iaas/private-cloud-patch-scheduler/contents/schedule/patching-schedule.json"
 schedule_text = requests.get(schedule_url, headers=headers)
 schedule_json = schedule_text.json()
