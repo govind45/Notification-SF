@@ -3,4 +3,4 @@
 if True:
   pass
 else:
-  pass
+  print (2)
