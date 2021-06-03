@@ -23,6 +23,7 @@ print (num_of_days_due)
 
 if num_of_days_due == 7:
 	notification = True
+	pass
 else:
 	notification = False
 
