@@ -2,3 +2,5 @@
 
 if True:
   pass
+else:
+  print (2)
